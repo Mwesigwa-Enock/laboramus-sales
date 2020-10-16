@@ -1,0 +1,238 @@
+2020-10-16 14:31:37.494  INFO 2892 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 2892 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 14:31:37.496  INFO 2892 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 14:31:37.530  INFO 2892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 14:31:37.530  INFO 2892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 14:31:38.113  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 14:31:38.113  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 14:31:38.129  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2020-10-16 14:31:38.139  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 14:31:38.139  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 14:31:38.147  INFO 2892 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2020-10-16 14:31:38.642  INFO 2892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 14:31:38.649  INFO 2892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 14:31:38.649  INFO 2892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 14:31:38.758  INFO 2892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 14:31:38.758  INFO 2892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1227 ms
+2020-10-16 14:31:38.888  INFO 2892 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 14:31:38.894  INFO 2892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 14:31:38.986  INFO 2892 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 14:31:39.025  INFO 2892 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 14:31:39.057  WARN 2892 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 14:31:39.063  INFO 2892 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 14:31:39.255  INFO 2892 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 14:31:39.375  INFO 2892 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 14:31:39.623  INFO 2892 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@279c405d, org.springframework.security.web.context.SecurityContextPersistenceFilter@33ced801, org.springframework.security.web.header.HeaderWriterFilter@12d4c2c5, org.springframework.security.web.authentication.logout.LogoutFilter@7891cc65, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7e4a5dc4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6ddee82b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26aa67c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2401b51c, org.springframework.security.web.session.SessionManagementFilter@173e3925, org.springframework.security.web.access.ExceptionTranslationFilter@44f9b232, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2a449fc3]
+2020-10-16 14:31:39.644  INFO 2892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 14:31:39.677  INFO 2892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 14:31:39.679  INFO 2892 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 14:31:39.680  INFO 2892 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 14:31:39.688  INFO 2892 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 2.501 seconds (JVM running for 3.288)
+2020-10-16 14:31:39.770  INFO 2892 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 14:31:39.777  INFO 2892 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 14:31:45.679  INFO 2892 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 14:31:45.679  INFO 2892 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 14:31:45.687  INFO 2892 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-10-16 15:02:58.821  INFO 12432 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 12432 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 15:02:58.966  INFO 12432 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 15:02:59.000  INFO 12432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 15:02:59.000  INFO 12432 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 15:02:59.548  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 15:02:59.549  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 15:02:59.568  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15ms. Found 0 JDBC repository interfaces.
+2020-10-16 15:02:59.581  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 15:02:59.582  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 15:02:59.590  INFO 12432 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-10-16 15:03:00.094  INFO 12432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 15:03:00.101  INFO 12432 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 15:03:00.102  INFO 12432 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 15:03:00.227  INFO 12432 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 15:03:00.228  INFO 12432 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1228 ms
+2020-10-16 15:03:00.371  INFO 12432 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:03:00.378  INFO 12432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 15:03:00.457  INFO 12432 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 15:03:00.495  INFO 12432 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 15:03:00.518  WARN 12432 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 15:03:00.533  INFO 12432 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 15:03:00.740  INFO 12432 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 15:03:00.871  INFO 12432 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 15:03:01.150  INFO 12432 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21bcada9, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cb02f81, org.springframework.security.web.header.HeaderWriterFilter@1cacc753, org.springframework.security.web.authentication.logout.LogoutFilter@6b4e95, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@49ada4c9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24a599dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e6b4ed6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@321d5b8f, org.springframework.security.web.session.SessionManagementFilter@5af9dfd2, org.springframework.security.web.access.ExceptionTranslationFilter@6ddee82b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a658316]
+2020-10-16 15:03:01.175  INFO 12432 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 15:03:01.209  INFO 12432 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 15:03:01.211  INFO 12432 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 15:03:01.212  INFO 12432 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 15:03:01.220  INFO 12432 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 2.705 seconds (JVM running for 3.542)
+2020-10-16 15:03:01.297  INFO 12432 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 15:03:01.304  INFO 12432 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 15:08:24.513  INFO 18148 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 18148 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 15:08:24.620  INFO 18148 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 15:08:24.666  INFO 18148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 15:08:24.666  INFO 18148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 15:08:25.403  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 15:08:25.403  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 15:08:25.421  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2020-10-16 15:08:25.429  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 15:08:25.430  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 15:08:25.437  INFO 18148 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2020-10-16 15:08:25.964  INFO 18148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 15:08:25.972  INFO 18148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 15:08:25.972  INFO 18148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 15:08:26.108  INFO 18148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 15:08:26.108  INFO 18148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1442 ms
+2020-10-16 15:08:26.305  INFO 18148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 15:08:26.312  INFO 18148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 15:08:26.413  INFO 18148 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 15:08:26.459  INFO 18148 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 15:08:26.490  WARN 18148 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 15:08:26.513  INFO 18148 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 15:08:26.775  INFO 18148 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 15:08:26.923  INFO 18148 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 15:08:27.149  INFO 18148 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73d31212, org.springframework.security.web.context.SecurityContextPersistenceFilter@38e3dc, org.springframework.security.web.header.HeaderWriterFilter@cc1d40d, org.springframework.security.web.authentication.logout.LogoutFilter@4ce548b0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5dda27bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@347ccf55, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@75556a1e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f98ec17, org.springframework.security.web.session.SessionManagementFilter@e677ef0, org.springframework.security.web.access.ExceptionTranslationFilter@6047920a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1affc4d0]
+2020-10-16 15:08:27.179  INFO 18148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 15:08:27.220  INFO 18148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 15:08:27.222  INFO 18148 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 15:08:27.222  INFO 18148 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 15:08:27.231  INFO 18148 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 3.033 seconds (JVM running for 3.914)
+2020-10-16 15:08:27.462  INFO 18148 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 15:08:27.474  INFO 18148 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 15:08:34.833  INFO 18148 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 15:08:34.833  INFO 18148 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 15:08:34.847  INFO 18148 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-10-16 16:12:41.254  INFO 11296 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 11296 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 16:12:41.259  INFO 11296 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 16:12:41.338  INFO 11296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 16:12:41.339  INFO 11296 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 16:12:41.946  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:12:41.947  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 16:12:41.965  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 JDBC repository interfaces.
+2020-10-16 16:12:41.973  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:12:41.973  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 16:12:41.981  INFO 11296 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 JPA repository interfaces.
+2020-10-16 16:12:42.523  INFO 11296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 16:12:42.533  INFO 11296 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:12:42.533  INFO 11296 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:12:42.663  INFO 11296 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:12:42.664  INFO 11296 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2020-10-16 16:12:42.823  INFO 11296 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:12:42.829  INFO 11296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 16:12:42.925  INFO 11296 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 16:12:42.964  INFO 11296 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 16:12:43.009  INFO 11296 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 16:12:43.040  WARN 11296 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 16:12:43.276  INFO 11296 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 16:12:43.472  INFO 11296 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 16:12:44.015  INFO 11296 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@245482c4, org.springframework.security.web.context.SecurityContextPersistenceFilter@3012c5d0, org.springframework.security.web.header.HeaderWriterFilter@5a6ec0f6, org.springframework.security.web.authentication.logout.LogoutFilter@2dd19443, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@148ea931, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@602f1d8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@279ffbe6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57dbf3cd, org.springframework.security.web.session.SessionManagementFilter@23123340, org.springframework.security.web.access.ExceptionTranslationFilter@3bcbf1c7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@461f4d75]
+2020-10-16 16:12:44.052  INFO 11296 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 16:12:44.125  INFO 11296 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 16:12:44.128  INFO 11296 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 16:12:44.129  INFO 11296 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 16:12:44.142  INFO 11296 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 3.299 seconds (JVM running for 4.244)
+2020-10-16 16:12:44.150  INFO 11296 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 16:12:44.162  INFO 11296 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 16:12:57.456  INFO 11296 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:12:57.457  INFO 11296 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:12:57.467  INFO 11296 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-10-16 16:12:59.297  INFO 11296 --- [http-nio-9000-exec-1] c.l.sales.csvhelper.FileUploadHelper     : java.lang.NullPointerException
+2020-10-16 16:14:07.188  INFO 14604 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 14604 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 16:14:07.194  INFO 14604 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 16:14:07.256  INFO 14604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 16:14:07.256  INFO 14604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 16:14:07.966  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:14:07.967  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 16:14:07.984  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 JDBC repository interfaces.
+2020-10-16 16:14:07.991  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:14:07.992  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 16:14:07.998  INFO 14604 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-10-16 16:14:08.492  INFO 14604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 16:14:08.510  INFO 14604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:14:08.511  INFO 14604 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:14:08.608  INFO 14604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:14:08.608  INFO 14604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2020-10-16 16:14:08.743  INFO 14604 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:14:08.749  INFO 14604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 16:14:08.834  INFO 14604 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 16:14:08.869  INFO 14604 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 16:14:08.905  INFO 14604 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 16:14:08.925  WARN 14604 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 16:14:09.132  INFO 14604 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 16:14:09.234  INFO 14604 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 16:14:09.527  INFO 14604 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1be53f04, org.springframework.security.web.context.SecurityContextPersistenceFilter@64d2886, org.springframework.security.web.header.HeaderWriterFilter@72cdd6fe, org.springframework.security.web.authentication.logout.LogoutFilter@6c5c923a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@145dae87, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4ecdcc08, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b130875, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@31ac9a11, org.springframework.security.web.session.SessionManagementFilter@16da33ca, org.springframework.security.web.access.ExceptionTranslationFilter@473da362, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4983faae]
+2020-10-16 16:14:09.554  INFO 14604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 16:14:09.596  INFO 14604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 16:14:09.598  INFO 14604 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 16:14:09.598  INFO 14604 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 16:14:09.605  INFO 14604 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 2.716 seconds (JVM running for 3.413)
+2020-10-16 16:14:09.652  INFO 14604 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 16:14:09.658  INFO 14604 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 16:14:27.314  INFO 14604 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:14:27.315  INFO 14604 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:14:27.318  INFO 14604 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-10-16 16:14:29.347  INFO 14604 --- [http-nio-9000-exec-2] c.l.sales.csvhelper.FileUploadHelper     : java.lang.NullPointerException
+2020-10-16 16:15:29.085  INFO 18668 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 18668 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 16:15:29.087  INFO 18668 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 16:15:29.119  INFO 18668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 16:15:29.119  INFO 18668 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 16:15:29.631  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:15:29.632  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 16:15:29.648  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12ms. Found 0 JDBC repository interfaces.
+2020-10-16 16:15:29.655  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:15:29.655  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 16:15:29.661  INFO 18668 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2ms. Found 0 JPA repository interfaces.
+2020-10-16 16:15:30.107  INFO 18668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 16:15:30.113  INFO 18668 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:15:30.114  INFO 18668 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:15:30.286  INFO 18668 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:15:30.286  INFO 18668 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2020-10-16 16:15:30.430  INFO 18668 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:15:30.436  INFO 18668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 16:15:30.514  INFO 18668 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 16:15:30.549  INFO 18668 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 16:15:30.589  INFO 18668 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 16:15:30.605  WARN 18668 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 16:15:30.774  INFO 18668 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 16:15:30.906  INFO 18668 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 16:15:31.165  INFO 18668 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49b80f66, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a7665a1, org.springframework.security.web.header.HeaderWriterFilter@2200c8e7, org.springframework.security.web.authentication.logout.LogoutFilter@2bb76dd5, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@445168e6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ab93b84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e79bec8, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ce43635, org.springframework.security.web.session.SessionManagementFilter@634442c3, org.springframework.security.web.access.ExceptionTranslationFilter@663c6f81, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@464e02ce]
+2020-10-16 16:15:31.199  INFO 18668 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 16:15:31.249  INFO 18668 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 16:15:31.251  INFO 18668 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 16:15:31.252  INFO 18668 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 16:15:31.269  INFO 18668 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 2.46 seconds (JVM running for 3.318)
+2020-10-16 16:15:31.365  INFO 18668 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 16:15:31.375  INFO 18668 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 16:15:54.343  INFO 18668 --- [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:15:54.344  INFO 18668 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:15:54.361  INFO 18668 --- [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2020-10-16 16:15:57.630  INFO 18668 --- [http-nio-9000-exec-2] c.l.sales.csvhelper.FileUploadHelper     : java.lang.NullPointerException
+2020-10-16 16:21:53.647  INFO 16344 --- [restartedMain] com.laboramus.sales.SalesApplication     : Starting SalesApplication on PAVANS-PC with PID 16344 (D:\Neptune Projs\Laboramus-sales\build\classes\java\main started by PAVANS in D:\Neptune Projs\Laboramus-sales)
+2020-10-16 16:21:53.649  INFO 16344 --- [restartedMain] com.laboramus.sales.SalesApplication     : No active profile set, falling back to default profiles: default
+2020-10-16 16:21:53.684  INFO 16344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-10-16 16:21:53.684  INFO 16344 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-10-16 16:21:54.250  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:21:54.250  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2020-10-16 16:21:54.283  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26ms. Found 0 JDBC repository interfaces.
+2020-10-16 16:21:54.293  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-10-16 16:21:54.294  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+2020-10-16 16:21:54.308  INFO 16344 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 JPA repository interfaces.
+2020-10-16 16:21:54.858  INFO 16344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9000 (http)
+2020-10-16 16:21:54.865  INFO 16344 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-16 16:21:54.866  INFO 16344 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-10-16 16:21:54.988  INFO 16344 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-16 16:21:54.988  INFO 16344 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2020-10-16 16:21:55.128  INFO 16344 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-16 16:21:55.135  INFO 16344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-16 16:21:55.220  INFO 16344 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-16 16:21:55.259  INFO 16344 --- [task-1] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-10-16 16:21:55.296  INFO 16344 --- [task-1] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-10-16 16:21:55.319  WARN 16344 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-10-16 16:21:55.491  INFO 16344 --- [task-1] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-10-16 16:21:55.606  INFO 16344 --- [task-1] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-10-16 16:21:55.853  INFO 16344 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6aab8aaa, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e35c05c, org.springframework.security.web.header.HeaderWriterFilter@43f5b0ef, org.springframework.security.web.authentication.logout.LogoutFilter@527aef55, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@be9a229, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e463bad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@720128e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23284f97, org.springframework.security.web.session.SessionManagementFilter@4e323ba, org.springframework.security.web.access.ExceptionTranslationFilter@5669037b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7bc38db6]
+2020-10-16 16:21:55.878  INFO 16344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-10-16 16:21:55.912  INFO 16344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9000 (http) with context path ''
+2020-10-16 16:21:55.915  INFO 16344 --- [restartedMain] DeferredRepositoryInitializationListener : Triggering deferred initialization of Spring Data repositories…
+2020-10-16 16:21:55.915  INFO 16344 --- [restartedMain] DeferredRepositoryInitializationListener : Spring Data repositories initialized!
+2020-10-16 16:21:55.923  INFO 16344 --- [restartedMain] com.laboramus.sales.SalesApplication     : Started SalesApplication in 2.571 seconds (JVM running for 3.327)
+2020-10-16 16:21:55.992  INFO 16344 --- [task-1] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-10-16 16:21:55.999  INFO 16344 --- [task-1] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-10-16 16:22:07.000  INFO 16344 --- [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-16 16:22:07.000  INFO 16344 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-16 16:22:07.007  INFO 16344 --- [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
