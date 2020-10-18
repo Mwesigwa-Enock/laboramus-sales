@@ -12,6 +12,7 @@ public class SalesResponse implements Serializable {
     private BigDecimal totalProfit;
     private List<ItemsObj> itemsObjs;
 
+
     public MessageResponse getMessageResponse() {
         return messageResponse;
     }
