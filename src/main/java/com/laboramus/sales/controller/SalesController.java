@@ -121,6 +121,8 @@ public class SalesController {
 
     //Home Analytics
     @GetMapping("/getAnalytics")
+
+
     public AnalyticsResponse analytics() {
         return sales.getTotals();
     }

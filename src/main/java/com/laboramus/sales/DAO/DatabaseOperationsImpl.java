@@ -114,27 +114,16 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
     @Override
     public AnalyticsResponse getTotals() {
         AnalyticsResponse analyticsResponse = new AnalyticsResponse();
-        MessageResponse messageResponse = new MessageResponse();
         try {
             String analyticsQuery = "select * from V_ANALYTICS";
 
             AnalyticsObj analyticsObj = jdbctemplate.queryForObject(analyticsQuery, new Object[]{},
                     new BeanPropertyRowMapper<>(AnalyticsObj.class));
-
-            messageResponse.setResponseCode("00");
-            messageResponse.setSuccess(true);
-            messageResponse.setMessage("Success");
-            analyticsResponse.setMessageResponse(messageResponse);
             analyticsResponse.setAnalyticsObj(analyticsObj);
 
         } catch (Exception ex) {
             logger.error(ex.getMessage());
-            messageResponse.setResponseCode("101");
-            messageResponse.setSuccess(false);
-            messageResponse.setMessage("Error! Try Again!");
-            analyticsResponse.setMessageResponse(messageResponse);
             analyticsResponse.setAnalyticsObj(null);
-
         }
 
         return analyticsResponse;
