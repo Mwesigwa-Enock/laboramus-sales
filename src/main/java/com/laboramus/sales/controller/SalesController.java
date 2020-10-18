@@ -2,24 +2,22 @@ package com.laboramus.sales.controller;
 
 
 import com.laboramus.sales.Objects.SalesObj;
-import com.laboramus.sales.csvhelper.FileUploadHelper;
+import com.laboramus.sales.payloads.requests.SalesRequest;
+import com.laboramus.sales.payloads.responses.AnalyticsResponse;
+import com.laboramus.sales.payloads.responses.MessageResponse;
+import com.laboramus.sales.payloads.responses.SalesResponse;
 import com.laboramus.sales.payloads.responses.UploadResponse;
 import com.laboramus.sales.services.SalesImpl;
-import com.opencsv.CSVReader;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import com.opencsv.bean.HeaderColumnNameTranslateMappingStrategy;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
 import java.io.BufferedReader;
-import java.io.FileReader;
 import java.io.InputStreamReader;
 import java.io.Reader;
 import java.util.HashMap;
@@ -104,12 +102,28 @@ public class SalesController {
 
     }
 
-
-
-
-
-
     //fetch data API
+    @GetMapping("/getSales")
+    public SalesResponse salesRecord(@RequestBody SalesRequest salesRequest) {
+        SalesResponse salesResponse = new SalesResponse();
+        if ((!salesRequest.getEndDate().isEmpty()) && (!salesRequest.getStartDate().isEmpty())) {
+            salesResponse = sales.fetchSales(salesRequest);
+        } else {
+            MessageResponse messageResponse = new MessageResponse();
+            messageResponse.setSuccess(false);
+            messageResponse.setResponseCode("101");
+            messageResponse.setMessage("Invalid Request Parameters !");
+            salesResponse.setTotalProfit(null);
+            salesResponse.setItemsObjs(null);
+        }
+        return salesResponse;
+    }
+
+    //Home Analytics
+    @GetMapping("/getAnalytics")
+    public AnalyticsResponse analytics() {
+        return sales.getTotals();
+    }
 
 
 }
