@@ -84,27 +84,15 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
                 for (ItemsObj obj : transList) {
                     total_profit = BigdecimalOperations.addAmount(total_profit, obj.getTotalProfits());
                 }
-
-                messageResponse.setResponseCode("00");
-                messageResponse.setSuccess(true);
-                messageResponse.setMessage("Success");
-                salesResponse.setTotalProfit(total_profit);
-                salesResponse.setMessageResponse(messageResponse);
+                
                 salesResponse.setItemsObjs(transList);
             } else {
-                messageResponse.setResponseCode("00");
-                messageResponse.setSuccess(true);
-                messageResponse.setMessage("No Records Founds");
-                salesResponse.setMessageResponse(messageResponse);
+
                 salesResponse.setItemsObjs(transList);
             }
 
         } catch (Exception e) {
             logger.error(e.getMessage());
-            messageResponse.setMessage(e.toString());
-            messageResponse.setResponseCode("201");
-            messageResponse.setSuccess(false);
-            salesResponse.setMessageResponse(messageResponse);
             salesResponse.setItemsObjs(null);
             salesResponse.setTotalProfit(null);
         }
