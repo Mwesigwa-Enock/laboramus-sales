@@ -24,7 +24,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin()
+@CrossOrigin
 @RestController
 @RequestMapping("/api/sales")
 public class SalesController {
@@ -33,7 +33,6 @@ public class SalesController {
     //Login API
     @Autowired
     SalesImpl sales;
-
 
     //Read CSV API
     @PostMapping("/upload-csv-file")
