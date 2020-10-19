@@ -90,6 +90,7 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
                 }
 
                 salesResponse.setItemsObjs(transList);
+                salesResponse.setTotalProfit(total_profit);
             } else {
 
                 salesResponse.setItemsObjs(transList);

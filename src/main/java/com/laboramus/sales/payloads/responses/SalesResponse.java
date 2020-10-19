@@ -8,15 +8,15 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public class SalesResponse implements Serializable {
-    private BigDecimal totalProfits;
+    private BigDecimal totalProfit;
     private List<ItemsObj> itemsObjs;
 
     public BigDecimal getTotalProfit() {
-        return totalProfits;
+        return totalProfit;
     }
 
     public void setTotalProfit(BigDecimal totalProfit) {
-        this.totalProfits = totalProfit;
+        this.totalProfit = totalProfit;
     }
 
     public List<ItemsObj> getItemsObjs() {
@@ -30,7 +30,7 @@ public class SalesResponse implements Serializable {
     @Override
     public String toString() {
         return "SalesResponse{" +
-                "totalProfit=" + totalProfits +
+                "totalProfit=" + totalProfit +
                 ", itemsObjs=" + itemsObjs +
                 '}';
     }
