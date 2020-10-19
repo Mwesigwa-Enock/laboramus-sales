@@ -125,7 +125,7 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
     @Override
     public List<RecordsResponse> getSales() {
         try {
-            String Query = "select sale_id, order_date , order_priority , units_sold, unit_price, total_cost , item_type  from sales limit 1000;";
+            String Query = "select sale_id, order_date , order_priority , units_sold, unit_price, total_cost , item_type  from sales limit 10000;";
             List<RecordsResponse> transList = jdbctemplate.query
                     (Query, new BeanPropertyRowMapper<>(RecordsResponse.class));
             return transList;
