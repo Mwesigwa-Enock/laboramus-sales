@@ -4,6 +4,7 @@ import com.laboramus.sales.DAO.DatabaseOperationsImpl;
 import com.laboramus.sales.Objects.SalesObj;
 import com.laboramus.sales.payloads.requests.SalesRequest;
 import com.laboramus.sales.payloads.responses.AnalyticsResponse;
+import com.laboramus.sales.payloads.responses.RecordsResponse;
 import com.laboramus.sales.payloads.responses.SalesResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,6 +30,11 @@ public class SalesImpl implements Sales {
     @Override
     public AnalyticsResponse getTotals() {
         return databaseOperations.getTotals();
+    }
+
+    @Override
+    public List<RecordsResponse> getSales() {
+        return databaseOperations.getSales();
     }
 
 

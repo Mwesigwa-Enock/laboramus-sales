@@ -3,10 +3,7 @@ package com.laboramus.sales.controller;
 
 import com.laboramus.sales.Objects.SalesObj;
 import com.laboramus.sales.payloads.requests.SalesRequest;
-import com.laboramus.sales.payloads.responses.AnalyticsResponse;
-import com.laboramus.sales.payloads.responses.MessageResponse;
-import com.laboramus.sales.payloads.responses.SalesResponse;
-import com.laboramus.sales.payloads.responses.UploadResponse;
+import com.laboramus.sales.payloads.responses.*;
 import com.laboramus.sales.services.SalesImpl;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
@@ -121,10 +118,15 @@ public class SalesController {
 
     //Home Analytics
     @GetMapping("/getAnalytics")
-
-
     public AnalyticsResponse analytics() {
         return sales.getTotals();
+    }
+
+
+    //Home Analytics
+    @GetMapping("/getRecords")
+    public List<RecordsResponse> getRecords() {
+        return sales.getSales();
     }
 
 

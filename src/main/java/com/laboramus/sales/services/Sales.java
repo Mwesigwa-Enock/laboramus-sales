@@ -4,6 +4,7 @@ import com.laboramus.sales.Objects.AnalyticsObj;
 import com.laboramus.sales.Objects.SalesObj;
 import com.laboramus.sales.payloads.requests.SalesRequest;
 import com.laboramus.sales.payloads.responses.AnalyticsResponse;
+import com.laboramus.sales.payloads.responses.RecordsResponse;
 import com.laboramus.sales.payloads.responses.SalesResponse;
 
 import java.util.List;
@@ -14,4 +15,6 @@ public interface Sales {
     SalesResponse fetchSales(SalesRequest salesRequest);
 
     AnalyticsResponse getTotals();
+
+    List<RecordsResponse> getSales();
 }

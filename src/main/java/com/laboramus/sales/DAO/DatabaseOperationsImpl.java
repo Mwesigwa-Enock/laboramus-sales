@@ -7,6 +7,7 @@ import com.laboramus.sales.configs.BigdecimalOperations;
 import com.laboramus.sales.payloads.requests.SalesRequest;
 import com.laboramus.sales.payloads.responses.AnalyticsResponse;
 import com.laboramus.sales.payloads.responses.MessageResponse;
+import com.laboramus.sales.payloads.responses.RecordsResponse;
 import com.laboramus.sales.payloads.responses.SalesResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -84,7 +85,7 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
                 for (ItemsObj obj : transList) {
                     total_profit = BigdecimalOperations.addAmount(total_profit, obj.getTotalProfits());
                 }
-                
+
                 salesResponse.setItemsObjs(transList);
             } else {
 
@@ -115,5 +116,18 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
         }
 
         return analyticsResponse;
+    }
+
+    @Override
+    public List<RecordsResponse> getSales() {
+        try {
+            String Query = "select order_date , order_priority , units_sold, unit_price, total_cost , item_type  from sales limit 1000;";
+            List<RecordsResponse> transList = jdbctemplate.query
+                    (Query, new BeanPropertyRowMapper<>(RecordsResponse.class));
+            return transList;
+        } catch (Exception e) {
+            logger.error(e.toString());
+            return null;
+        }
     }
 }
