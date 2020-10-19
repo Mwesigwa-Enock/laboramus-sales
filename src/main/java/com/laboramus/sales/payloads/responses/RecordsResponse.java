@@ -4,8 +4,15 @@ import java.io.Serializable;
 
 public class RecordsResponse  implements Serializable {
     private String order_date , order_priority, item_type;
-    private Integer units_sold, unit_price,total_cost;
+    private Integer sale_id, units_sold, unit_price,total_cost;
 
+    public Integer getSale_id() {
+        return sale_id;
+    }
+
+    public void setSale_id(Integer sale_id) {
+        this.sale_id = sale_id;
+    }
 
     public String getOrder_date() {
         return order_date;
@@ -61,6 +68,7 @@ public class RecordsResponse  implements Serializable {
                 "order_date='" + order_date + '\'' +
                 ", order_priority='" + order_priority + '\'' +
                 ", item_type='" + item_type + '\'' +
+                ", sale_id=" + sale_id +
                 ", units_sold=" + units_sold +
                 ", unit_price=" + unit_price +
                 ", total_cost=" + total_cost +
