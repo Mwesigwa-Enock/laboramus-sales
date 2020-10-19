@@ -100,7 +100,7 @@ public class SalesController {
     }
 
     //fetch data API
-    @GetMapping("/getSales")
+    @PostMapping("/getSales")
     public SalesResponse salesRecord(@RequestBody SalesRequest salesRequest) {
         System.out.println("Sales Req: "+salesRequest);
         SalesResponse salesResponse = new SalesResponse();
