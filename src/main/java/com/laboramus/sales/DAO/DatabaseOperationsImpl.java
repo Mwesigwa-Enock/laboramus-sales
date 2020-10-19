@@ -21,11 +21,13 @@ import org.springframework.transaction.annotation.Transactional;
 import java.math.BigDecimal;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.text.SimpleDateFormat;
 import java.util.List;
 
 @Service
 public class DatabaseOperationsImpl implements DatabaseOperations {
     private static final Logger logger = LoggerFactory.getLogger(DatabaseOperationsImpl.class);
+    SimpleDateFormat format = new SimpleDateFormat("dd/MM/yyyy");
 
     @Autowired
     private JdbcTemplate jdbctemplate;
@@ -73,13 +75,14 @@ public class DatabaseOperationsImpl implements DatabaseOperations {
         SalesResponse salesResponse = new SalesResponse();
         MessageResponse messageResponse = new MessageResponse();
         BigDecimal total_profit = null;
+
         try {
             //select total profit
             String itemsQuery = "select distinct item_type, sum(total_profit) as totalProfits from sales " +
                     "where order_date >= ? and order_date <= ? " +
                     "group by item_type order by totalProfits desc limit 5";
             List<ItemsObj> transList = jdbctemplate.query
-                    (itemsQuery, new BeanPropertyRowMapper<>(ItemsObj.class), salesRequest.getStartDate(), salesRequest.getEndDate());
+                    (itemsQuery, new BeanPropertyRowMapper<>(ItemsObj.class), (salesRequest.getStartDate()), salesRequest.getEndDate());
             if (!transList.isEmpty()) {
 
                 for (ItemsObj obj : transList) {

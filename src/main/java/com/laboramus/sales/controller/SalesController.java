@@ -21,7 +21,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@CrossOrigin(origins = "*", allowedHeaders = "*")
+//@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RestController
 @RequestMapping("/api/sales")
 public class SalesController {
@@ -102,6 +102,7 @@ public class SalesController {
     //fetch data API
     @GetMapping("/getSales")
     public SalesResponse salesRecord(@RequestBody SalesRequest salesRequest) {
+        System.out.println("Sales Req: "+salesRequest);
         SalesResponse salesResponse = new SalesResponse();
         if ((!salesRequest.getEndDate().isEmpty()) && (!salesRequest.getStartDate().isEmpty())) {
             salesResponse = sales.fetchSales(salesRequest);
